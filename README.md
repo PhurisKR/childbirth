@@ -34,3 +34,34 @@
 Clone โปรเจคจาก GitHub:
 ```bash
 git clone https://github.com/phurisk/stages-of-childbirth.git
+
+
+# โครงสร้างโปรเจค (Project Structure)
+
+stages-of-childbirth/
+├── src/
+│   ├── assets/          # เก็บไฟล์รูปภาพ
+│   ├── components/      # ส่วนประกอบ UI เช่น Navbar, Footer
+│   ├── pages/           # หน้าเว็บแต่ละส่วน เช่น Homepage, StagesPage
+│   ├── App.js           # ไฟล์หลักของแอป
+│   ├── index.js         # จุดเริ่มต้นของโปรเจค
+│   ├── styles.css       # ไฟล์ CSS หลัก
+├── package.json         # ข้อมูล dependencies
+└── README.md            # คำแนะนำสำหรับโปรเจค
+
+# เทคโนโลยีที่ใช้ (Technologies Used)
+
+    React.js: สร้างส่วนติดต่อผู้ใช้ที่มีประสิทธิภาพ
+    CSS: ออกแบบและตกแต่งเว็บไซต์
+    AOS (Animate On Scroll): เพิ่มเอฟเฟกต์เลื่อนสำหรับองค์ประกอบต่าง ๆ
+    Google Fonts: ใช้ฟอนต์ Poppins เพื่อความสวยงาม
+
+
+# ผู้สร้าง (Creator)
+
+Phuris Kruacharee
+
+ติดต่อ:
+
+    Email: phuris.k@kkumail.com
+    GitHub: github.com/phurisk

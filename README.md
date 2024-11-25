@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# เว็บไซต์ระยะคลอด (Stages of Childbirth)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+เว็บไซต์นี้ถูกสร้างขึ้นเพื่อให้ข้อมูลที่เข้าใจง่ายเกี่ยวกับระยะของการคลอด โดยเน้นการแสดงผลที่สวยงามและใช้งานง่าย ผู้ใช้สามารถเรียนรู้เกี่ยวกับแต่ละระยะของการคลอดผ่านภาพประกอบ ข้อความที่กระชับ และประสบการณ์ผู้ใช้ที่ราบรื่น
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## คุณสมบัติเด่น (Features)
 
-### `npm start`
+1. **หน้าแสดงระยะคลอด**
+   - ข้อมูลเกี่ยวกับ 3 ระยะสำคัญ:
+     - ระยะที่ 1: การเปิดปากมดลูก
+     - ระยะที่ 2: การคลอดทารก
+     - ระยะที่ 3: การคลอดรก
+   - มีภาพประกอบที่ชัดเจนและขนาดพอดีกรอบ
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **การออกแบบที่ตอบสนอง (Responsive Design)**
+   - รองรับการใช้งานบนทั้งคอมพิวเตอร์และอุปกรณ์มือถือ
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **ส่วนติดต่อผู้ใช้ที่มีความสวยงาม**
+   - การออกแบบเน้นโทนสีอบอุ่น สบายตา
+   - ใช้ฟอนต์ทันสมัยและมีการจัดวางเนื้อหาเป็นระเบียบ
 
-### `npm test`
+4. **Footer ติดด้านล่างตลอดเวลา**
+   - แสดงข้อมูลการติดต่อและลิขสิทธิ์
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Scroll Animation**
+   - เพิ่มความลื่นไหลด้วยเอฟเฟกต์เลื่อน (AOS - Animate On Scroll)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## การติดตั้งและใช้งาน (Installation and Usage)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 1. การดาวน์โหลดโปรเจค
+Clone โปรเจคจาก GitHub:
+```bash
+git clone https://github.com/phurisk/stages-of-childbirth.git

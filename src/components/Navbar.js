@@ -15,7 +15,7 @@ const Navbar = () => {
                 fontFamily: 'Arial, sans-serif',
                 fontWeight: 'bold',
                 fontSize: '24px'
-            }}>ระยะคลอด</h1>
+            }}>ChildBirth</h1>
             <ul style={{
                 listStyle: 'none',
                 display: 'flex',

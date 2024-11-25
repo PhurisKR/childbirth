@@ -1,37 +1,14 @@
 import React from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <nav style={{
-            backgroundColor: '#ffcccc',
-            padding: '10px 20px',
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
-        }}>
-            <h1 style={{
-                color: '#990000',
-                fontFamily: 'Arial, sans-serif',
-                fontWeight: 'bold',
-                fontSize: '24px'
-            }}>ChildBirth</h1>
-            <ul style={{
-                listStyle: 'none',
-                display: 'flex',
-                margin: 0,
-                padding: 0
-            }}>
-                {['หน้าแรก', 'ระยะคลอด', 'ติดต่อเรา'].map((item, index) => (
-                    <li key={index} style={{ margin: '0 15px' }}>
-                        <a href={`#${item}`} style={{
-                            textDecoration: 'none',
-                            color: '#990000',
-                            fontSize: '16px',
-                            fontWeight: 'bold'
-                        }}>{item}</a>
-                    </li>
-                ))}
+        <nav className="navbar">
+            <h1>ChildBirth</h1>
+            <ul>
+                <li><a href="#home">หน้าแรก</a></li>
+                <li><a href="#stages">ระยะคลอด</a></li>
+                <li><a href="#contact">ติดต่อเรา</a></li>
             </ul>
         </nav>
     );

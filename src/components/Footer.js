@@ -17,6 +17,8 @@ const Footer = () => {
                 margin: 0,
                 fontFamily: "'Poppins', sans-serif",
                 fontSize: '14px',
+                color: '#ffd7d2', /* ปรับให้เป็นสีทองที่สว่างขึ้น */
+                fontWeight: 'bold', /* เพิ่มความหนาให้ดูเด่น */
             }}>
                 © 2024 ระยะคลอด - เว็บไซต์ให้ความรู้เกี่ยวกับการคลอด
             </p>
